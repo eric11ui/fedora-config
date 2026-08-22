@@ -1,0 +1,32 @@
+# GUI : Multimedia
+add:re.fossplant.songrec
+add:com.obsproject.Studio
+add:com.obsproject.Studio.Plugin.BackgroundRemoval
+
+# GUI : Graphisme
+add:org.upscayl.Upscayl
+
+# GUI : Internet
+del:com.anydesk.Anydesk
+del:com.discordapp.Discord
+add:org.telegram.desktop
+add:com.mattermost.Desktop
+add:im.riot.Riot
+
+# GUI : Utilitaires
+del:com.usebottles.bottles
+add:com.github.tchx84.Flatseal
+del:io.github.flattool.Warehouse
+
+# GUI : Jeux
+del:com.valvesoftware.Steam
+add:com.github.k4zmu2a.spacecadetpinball
+add:com.vysp3r.ProtonPlus
+
+# GUI : Virtualisation
+add:org.virt_manager.virt-viewer
+
+# GUI : Admin système
+
+# GUI : Stream
+add:com.core447.StreamController
