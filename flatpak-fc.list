@@ -1,10 +1,18 @@
+# GUI : Sécurité
+add:com.bitwarden.desktop
+
+# GUI : Stockage dans le nuage
+add:com.synology.SynologyDrive
+
 # GUI : Multimedia
 add:re.fossplant.songrec
 add:com.obsproject.Studio
 add:com.obsproject.Studio.Plugin.BackgroundRemoval
+add:tv.plex.PlexDesktop
 
 # GUI : Graphisme
 add:org.upscayl.Upscayl
+add:nl.emphisia.icon
 
 # GUI : Internet
 del:com.anydesk.Anydesk
@@ -18,6 +26,10 @@ del:com.usebottles.bottles
 add:com.github.tchx84.Flatseal
 del:io.github.flattool.Warehouse
 
+# GUI : Notes
+add:net.cozic.joplin_desktop
+add:md.obsidian.Obsidian
+
 # GUI : Jeux
 del:com.valvesoftware.Steam
 add:com.github.k4zmu2a.spacecadetpinball
@@ -30,3 +42,6 @@ add:org.virt_manager.virt-viewer
 
 # GUI : Stream
 add:com.core447.StreamController
+
+# GUI : Afficheur de documents
+add:org.kde.okular

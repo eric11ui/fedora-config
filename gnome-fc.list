@@ -7,7 +7,7 @@
 #add:qgnomeplatform-qt6
 
 # Themes
-#add:adw-gtk3-theme
+add:adw-gtk3-theme
 
 # Extensions
 add:gnome-extensions-app

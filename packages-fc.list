@@ -8,8 +8,9 @@ add:libreoffice-langpack-fr
 # Intégration APPS KDE
 add:plasma-breeze
 
-# Specifque Hardware
-add:amd-ucode-firmware
+# Specifique Hardware
+# add:amd-ucode-firmware
+add:akmod-nvidia
 
 # Admin SYS
 add:cockpit
@@ -21,7 +22,7 @@ add:cockpit-system
 add:cockpit-ws
 add:cockpit-podman
 add:cockpit-machines
-add:yumex
+del:yumex
 
 # Fonts
 add:redhat-text-vf-fonts
@@ -34,7 +35,7 @@ add:redhat-display-fonts
 # GNOME Apps
 del:abrt
 del:gnome-terminal
-del:gnome-software
+add:gnome-software
 del:PackageKit
 add:ptyxis
 add:seahorse
@@ -132,7 +133,7 @@ add:showtime
 add:decibels
 
 # GUI : Virtualisation
-add:VirtualBox
+del:VirtualBox
 add:virt-manager
 del:virt-viewer
 
@@ -140,6 +141,7 @@ del:virt-viewer
 add:gimp
 add:inkscape
 add:flameshot
+add:gcolor3
 
 # GUI : Reseau
 add:remmina
