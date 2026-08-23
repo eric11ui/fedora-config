@@ -1,0 +1,8 @@
+# Emplacement du fichier : /home/[nom utilisateur]/.config/autostart
+[Desktop Entry]
+Type=Application
+Name=Synology-Drive
+Exec=flatpak run com.synology.SynologyDrive
+# Exec=flatpak run --verbose com.synology.SynologyDrive
+Comment=Démarre mon application Flatpak, Synology Drive, en arrière-plan.
+X-GNOME-Autostart-enabled=true
