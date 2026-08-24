@@ -98,6 +98,7 @@ add:telnet
 # CLI : backup
 add:borgbackup
 add:plakar
+add:deja-dup
 
 # CLI : Multimedia
 add:abcde
