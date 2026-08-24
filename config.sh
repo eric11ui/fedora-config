@@ -426,10 +426,10 @@ fi
 if [[ "$1" = "scriptupdate" ]]
 then
     echo $0
-    wget -O- https://raw.githubusercontent.com/aaaaadrien/fedora-config/refs/heads/main/config.sh > "$0"
+    wget -O- https://raw.githubusercontent.com/eric11ui/fedora-config/refs/heads/main/config.sh > "$0"
     chmod +x "$0"
 
-    wget -O- -q https://raw.githubusercontent.com/aaaaadrien/fedora-config/refs/heads/main/CHANGELOG.txt | head
+    wget -O- -q https://raw.githubusercontent.com/eric11ui/fedora-config/refs/heads/main/CHANGELOG.txt | head
 
     exit 0;
 fi
@@ -837,7 +837,7 @@ then
     if [[ -e /etc/yum.repos.d/plex.repo &&  $(grep -c 'enabled=0' /etc/yum.repos.d/plex.repo) -eq 1 ]]
     then
         rm -f /etc/yum.repos.d/plex.repo
-fi
+    fi
     if ! check_repo_file plex.repo
     then
         echo -n "- - - Installation plex Repo : "
