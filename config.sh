@@ -831,6 +831,28 @@ then
     fi
 fi
 
+#PlexTv
+if [[ $(grep -c 'PlexTv:on' $ICI/$RPELIST) == "1" ]]
+then
+    if [[ -e /etc/yum.repos.d/plex.repo &&  $(grep -c 'enabled=0' /etc/yum.repos.d/plex.repo) -eq 1 ]]
+    then
+        rm -f /etc/yum.repos.d/plex.repo
+fi
+    if ! check_repo_file plex.repo
+    then
+        echo -n "- - - Installation plex Repo : "
+        echo "[PlexTv]
+        name=Plex.tv
+        baseurl=https://repo.plex.tv/rpm/$(uname -m)/
+        enabled=1
+        gpgcheck=1
+        repo_gpgcheck=1
+        gpgkey=https://downloads.plex.tv/plex-keys/PlexSign.v2.key" 2>/dev/null > /etc/yum.repos.d/plex.repo
+        check_cmd
+        sed -e 's/[[:blank:]]//g' -i /etc/yum.repos.d/plex.repo
+    fi
+fi
+
 ## FLATHUB
 if [[ $(flatpak remotes | grep -c flathub) -ne 1 ]]
 then
