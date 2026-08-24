@@ -22,7 +22,7 @@ add:cockpit-system
 add:cockpit-ws
 add:cockpit-podman
 add:cockpit-machines
-del:yumex
+add:yumex
 
 # Fonts
 add:redhat-text-vf-fonts

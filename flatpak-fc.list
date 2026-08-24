@@ -38,6 +38,7 @@ add:com.vysp3r.ProtonPlus
 add:org.virt_manager.virt-viewer
 
 # GUI : Admin système
+add:net.nokyan.Resources
 
 # GUI : Stream
 add:com.core447.StreamController
