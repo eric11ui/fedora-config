@@ -8,7 +8,6 @@ add:com.synology.SynologyDrive
 add:re.fossplant.songrec
 add:com.obsproject.Studio
 add:com.obsproject.Studio.Plugin.BackgroundRemoval
-add:tv.plex.PlexDesktop
 
 # GUI : Graphisme
 add:org.upscayl.Upscayl
