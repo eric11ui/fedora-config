@@ -21,7 +21,7 @@ echo " - Modification du format de la date et heure"
 gsettings set org.gnome.desktop.interface clock-show-date true
 gsettings set org.gnome.desktop.interface clock-show-seconds true
 gsettings set org.gnome.desktop.interface clock-show-weekday true
-gsettings set org.gnome.desktop.interface clock-format 12h
+gsettings set org.gnome.desktop.interface clock-format 24h
 echo " - Localisation du pointeur via CTRL"
 gsettings set org.gnome.desktop.interface locate-pointer true
 echo " - Paramétrage Touch Pad"
