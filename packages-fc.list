@@ -11,6 +11,7 @@ add:plasma-breeze
 # Specifique Hardware
 # add:amd-ucode-firmware
 add:akmod-nvidia
+add:xorg-x11-drv-nvidia-cuda
 
 # Admin SYS
 add:cockpit
