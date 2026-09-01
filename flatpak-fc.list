@@ -1,3 +1,6 @@
+# GUI : Bureautique
+add:org.onlyoffice.desktopeditors
+
 # GUI : Sécurité
 add:com.bitwarden.desktop
 
