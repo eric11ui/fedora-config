@@ -163,6 +163,7 @@ add:torbrowser-launcher
 # GUI : Utilitaires
 add:cool-retro-term
 add:guake
+add:waydroid
 
 # GUI : Sécurité
 add:keepassxc
