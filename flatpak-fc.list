@@ -24,9 +24,11 @@ add:com.mattermost.Desktop
 add:im.riot.Riot
 
 # GUI : Utilitaires
-del:com.usebottles.bottles
 add:com.github.tchx84.Flatseal
+add:com.mattjakeman.ExtensionManager
+del:com.usebottles.bottles
 del:io.github.flattool.Warehouse
+
 
 # GUI : Notes
 add:net.cozic.joplin_desktop
