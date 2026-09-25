@@ -164,6 +164,7 @@ add:torbrowser-launcher
 add:cool-retro-term
 add:guake
 add:waydroid
+add:syncthing
 
 # GUI : Sécurité
 add:keepassxc
