@@ -1,5 +1,6 @@
 # GUI : Bureautique
 add:org.onlyoffice.desktopeditors
+add:io.github.martchus.syncthingtray
 
 # GUI : Sécurité
 add:com.bitwarden.desktop
@@ -28,7 +29,6 @@ add:com.github.tchx84.Flatseal
 add:com.mattjakeman.ExtensionManager
 del:com.usebottles.bottles
 del:io.github.flattool.Warehouse
-
 
 # GUI : Notes
 add:net.cozic.joplin_desktop

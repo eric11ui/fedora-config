@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Syncthing Tray
+Comment=Régulateur et indicateur pour Syncthing
+Exec=flatpak run io.github.martchus.syncthingtray
+Icon=io.github.martchus.syncthingtray
+Terminal=false
+Categories=Network;Utility;
+X-GNOME-Autostart-enabled=true
+# GitHub : https://github.com/Martchus/syncthingtray
