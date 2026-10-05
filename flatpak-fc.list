@@ -9,6 +9,7 @@ add:com.bitwarden.desktop
 add:com.synology.SynologyDrive
 
 # GUI : Multimedia
+add:tv.plex.PlexDesktop
 add:re.fossplant.songrec
 add:com.obsproject.Studio
 add:com.obsproject.Studio.Plugin.BackgroundRemoval
