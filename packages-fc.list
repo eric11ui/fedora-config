@@ -156,9 +156,10 @@ add:epiphany
 add:evolution
 add:vivaldi-stable
 add:google-chrome-stable
-del:telegram-desktop
+add:firefox
 add:discord
 add:torbrowser-launcher
+del:telegram-desktop
 
 # GUI : Utilitaires
 add:cool-retro-term
